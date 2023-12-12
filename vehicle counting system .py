@@ -60,6 +60,7 @@ while ret:
         if not contour_valid:
             continue
 
+        # membuat line
         cv2.rectangle(frame1, (x - 10, y - 10), (x + w + 10, y + h + 10), (255, 0, 0), 2)
         cv2.line(frame1, (0, line_height), (1200, line_height), (0, 255, 0), 2)
 
